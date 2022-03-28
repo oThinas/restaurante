@@ -6,7 +6,7 @@ var campos = [
 ];
 console.log(campos);
 
-//var tbody = document.createElement('table tbody');
+//var tbody = document.createElement('table tbody'); //Não funciona
 var table = document.querySelector('table') //Não consta na apostila
 var tbody = document.createElement('tbody'); //Não consta na apostila
 table.appendChild(tbody) //Não consta na apostila
