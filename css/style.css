@@ -114,6 +114,14 @@ button i {
     margin: 0 5px 0 -5px;
 }
 
+table, thead, tr, th, td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+}
+
 .cabecalho {
     background-color: #26522d;
     padding: 30px;
