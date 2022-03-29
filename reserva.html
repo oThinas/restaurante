@@ -20,22 +20,24 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="reserva.html">Reserva</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <h3 class="titulo-centralizado titulo-secao">Reservas Recentes</h3>
-    <table class="table">
-        <thead class="thead-dark">
-            <tr>
-                <th scope="col">Nome</th>
-                <th scope="col">Telefone</th>
-                <th scope="col">Qtd. Pessoas</th>
-                <th scope="col">Observações</th>
-            </tr>
-        </thead>
-    </table>
+    <div id="esconder">
+        <h3 class="titulo-centralizado titulo-secao">Reservas Recentes</h3>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col" id="coluna-nome">Nome</th>
+                    <th scope="col" id="coluna-telefone">Telefone</th>
+                    <th scope="col" id="coluna-qtdPessoas">Qtd. Pessoas</th>
+                    <th scope="col">Observações</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
     <h3 class="titulo-centralizado titulo-secao">Faça sua Reserva</h3>
     <form method="post">
         <label for="nome">Nome: </label>

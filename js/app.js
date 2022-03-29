@@ -12,6 +12,7 @@ var tbody = document.createElement('tbody'); //Não consta na apostila
 table.appendChild(tbody) //Não consta na apostila
 
 document.querySelector('form').addEventListener('submit', function (evento) {
+    document.getElementById('esconder').style.display = "block";
     evento.preventDefault();
     var tr = document.createElement('tr');
     
