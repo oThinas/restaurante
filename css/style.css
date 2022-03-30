@@ -114,11 +114,42 @@ button i {
 }
 
 table, thead, tr, th, td {
-    border: 1px solid;
+    border: 1px solid #ddd;
+    font: 18px Arial, Helvetica, sans-serif;
+    padding: 4px 8px;
+    margin: 0 100px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
 }
 
-table {
-    width: 100%;
+.table tr:nth-child(even) {
+    background-color: #a5d9ad;
+}
+
+.table td:nth-child(4) {
+    text-align: left;
+}
+
+.thead-dark {
+    background-color: #26522d;
+    color: #fff;
+}
+
+#esconder {
+    display: none;
+}
+
+#coluna-nome{
+    width: 30%;
+}
+
+#coluna-telefone{
+    width: 20%;
+}
+
+#coluna-qtdPessoas{
+    width: 5%;
 }
 
 .cabecalho {
